@@ -26,7 +26,7 @@ Understand how to apply Loops and iteration in python programs. *** While loops:
 
 #### Exercise
 Fibonacci: Write a program that prompts the user to enter a positive integer n, and then prints the first n Fibonacci numbers. The Fibonacci sequence starts with 0 and 1, and each subsequent number is the sum of the two preceding numbers.
-Day 4: Functions In Python
+# Day 4: Functions In Python
 Understand the concept of functions in Python. A function is a block of organized code that is used to perform a single task. They provide better modularity for your application and reuse-ability. A function can take arguments and return values:
 
 #### Exercise
