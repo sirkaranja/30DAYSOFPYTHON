@@ -8,7 +8,7 @@ if rain == 'no':
         print('Wear a sweater or light jacket')
     elif temperature >= 70:
         print('Hi, consider wearing a t-shirt and shorts')
-else:
+elif rain == 'yes':
     if 50 <= temperature < 70:
         print('Wearing a rain jacket and boots')
     elif temperature >= 70:
