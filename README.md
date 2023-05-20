@@ -30,11 +30,11 @@ Fibonacci: Write a program that prompts the user to enter a positive integer n, 
 Understand the concept of functions in Python. A function is a block of organized code that is used to perform a single task. They provide better modularity for your application and reuse-ability. A function can take arguments and return values:
 
 #### Exercise
-1.write a function in python that takes a list of numbers and returns the sum of the given numbers. 
+1. write a function in python that takes a list of numbers and returns the sum of the given numbers. 
 
 2. write a function in python that takes a list of numbers and returns the second-largest item in the list of the given numbers. 
 
- 3. write a function in python that takes 3 parameters: name, age, and occupation and prints this 
+ 3. write a function in python that takes 3 parameters: name, age, and occupation and prints this sentence as output: "My name is {name}, I am {age} years old and I work as a {occupation}". 
 
 
 
