@@ -13,11 +13,4 @@ def duplicate():
 print(list(set(duplicate())))
 
 
-#2
-sample_list = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
-# Remove the 0th, 4th, and 5th elements using list slicing
-modified_list = sample_list[1:4]
-
-# Print the modified list
-print(modified_list)
 
