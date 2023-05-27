@@ -6,7 +6,10 @@ print( "r" in my_tuple) #this returns false since we dont have r in my_tuple
 
 #list to tuples
 
-num_list =[1,2,3,4,6,7]
+num_list =[1,2,3,4,0,7]
 
 #tuple key word is used in converting list to tuples
 print(tuple(num_list))  
+num_list.pop(4)
+
+#tuples can also be created without the PARANTHESIS
