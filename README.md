@@ -306,27 +306,27 @@ Create SQL database records using Python objects.
 
 1. Create a new Python file and import the sqlite3 library. Create a connection to the database. Create a cursor object. Create a new Python object for a user. Use the execute() method to insert the user object into the users table. Commit the changes to the database.
 
-Day 19: SQLALchemy and Python
+### Day 19: SQLALchemy and Python
 Using ORM and SQL concepts, implement the CRUD operations using SQLAlchemy library https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/ https://youtu.be/AKQ3XEDI9Mw https://www.youtube.com/watch?v=dIV8NHzboxU&amp;index=2
 
-Exercise
+#### Exercise
 1# Using a use-case of your choice, apply the concepts of ORM and SQLAlchemy to demonstrate these functionalities ~ Create, Read, Update, and Delete with SQLAlchemy.
 
-Day 20: Working with SQL Relations SQLALCHEMY and Python
+### Day 20: Working with SQL Relations SQLALCHEMY and Python
 Understand how to implement CRUD operations using Python and SQLAlchemy covering relationships 1:1 relationships in sqlalchemy (CRUD)
 1:* relationships in sqlalchemy (CRUD) : relationships in sqlalchemy (CRUD)
 
-Exercise
-One-to-many relationship
+#### Exercise
+1. One-to-many relationship
 In this exercise, we will create a one-to-many relationship between a Customer table and an Order table. The Customer table will have a id column that is the primary key, and the Order table will have a customer_id column that is a foreign key to the Customer table. Once you have the tables created, populate them with data such that using JOINs, you can query the data to see how the relationships work. For example, we can get all of the orders for a particular customer by using the join keyword.
 
-One-to-one relationship between a User table and a Profile table
+2. One-to-one relationship between a User table and a Profile table
 In this exercise, we will create a one-to-one relationship between a User table and a Profile table. The User table will have a id column that is the primary key, and the Profile table will have a user_id column that is a foreign key to the User table.Once you have created and populated the tables with data, write a query that finds the profile for a particular user by using the join keyword, eg at id 1.
 
-Many-to-many relationship
+3. Many-to-many relationship
 In this exercise, we will create a many-to-many relationship between a Book table and an Author table. The Book table will have a id column that is the primary key, and the Author table will have a id column that is the primary key. We will also create a BookAuthor table that will store the relationship between books and authors. Once you have all the 3 tables populated, write a query that gets all of the books that were written by a particular author ege 'J.R.R. Tolkien' by using the join keyword.
 
-Day 21: Web Scraping Basics
+### Day 21: Web Scraping Basics
 Introduction to web scraping in Python, using libraries such as BeautifulSoup and requests.
 
 Exercise
