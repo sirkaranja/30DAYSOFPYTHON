@@ -277,33 +277,163 @@ Write a Python program that asks the user to enter an integer.
 Implement exception handling to handle the scenario where the input cannot be converted to an integer (ValueError).
 Display an appropriate error message if the input is not a valid integer and ask the user to enter a valid integer.
 
+Day 16: Working with SQL Databases and Python
+Everything about SQL - SQLite Installation,How to create SQL Tables, and Queries * Use SQL to store data and retrieve it later on. * Use SQLite to build relational databases on your computer. * Perform CRUD operations on relational databases using SQL.
 
-### Day 16: Working with APIs 
+https://datatofish.com/create-database-python-using-sqlite3/ https://www.freecodecamp.org/news/sqlite-python-beginners-tutorial/ https://www.sqlitetutorial.net/sqlite-python/creating-database/
 
+Exercises
+In your VSCode or editor of your choice, create an SQLite database with 2 tables, students and teachers with accompanied attributes and perform the following operations:
+Insert data into the tables using SQL
+SELECT data by a particular id eg 'where id=2'
+SELECT ALL (*) the table data
+Update a row data
+Delete a particular table row data
+Drop a Table
+Day 17: ORM and Python
+Applying the concept of OOP with Python Data
 
+Create Python objects using SQL database records.
+Create SQL database records using Python objects.
+Exercise
+Exercise 1: Create Python objects using SQL database records
 
-### Day 17: Working with SQL Databases and Python 
+Create a new Python file and import the sqlite3 library. Create a connection to the database. Create a cursor object. Execute a query to get all the records from the users table. Create a new Python object for each record in the users table. Print the name and email address of each user.
 
+Exercise 2: Create SQL database records using Python objects
 
+Create a new Python file and import the sqlite3 library. Create a connection to the database. Create a cursor object. Create a new Python object for a user. Use the execute() method to insert the user object into the users table. Commit the changes to the database.
 
+Day 19: SQLALchemy and Python
+Using ORM and SQL concepts, implement the CRUD operations using SQLAlchemy library https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/ https://youtu.be/AKQ3XEDI9Mw https://www.youtube.com/watch?v=dIV8NHzboxU&amp;index=2
 
-### Day 18: Working with SQL Relations and Python 
+Exercise
+1# Using a use-case of your choice, apply the concepts of ORM and SQLAlchemy to demonstrate these functionalities ~ Create, Read, Update, and Delete with SQLAlchemy.
 
+Day 20: Working with SQL Relations SQLALCHEMY and Python
+Understand how to implement CRUD operations using Python and SQLAlchemy covering relationships 1:1 relationships in sqlalchemy (CRUD)
+1:* relationships in sqlalchemy (CRUD) : relationships in sqlalchemy (CRUD)
 
+Exercise
+One-to-many relationship
+In this exercise, we will create a one-to-many relationship between a Customer table and an Order table. The Customer table will have a id column that is the primary key, and the Order table will have a customer_id column that is a foreign key to the Customer table. Once you have the tables created, populate them with data such that using JOINs, you can query the data to see how the relationships work. For example, we can get all of the orders for a particular customer by using the join keyword.
 
+One-to-one relationship between a User table and a Profile table
+In this exercise, we will create a one-to-one relationship between a User table and a Profile table. The User table will have a id column that is the primary key, and the Profile table will have a user_id column that is a foreign key to the User table.Once you have created and populated the tables with data, write a query that finds the profile for a particular user by using the join keyword, eg at id 1.
 
-### Day 19: Working with SQL Relations and Python 
+Many-to-many relationship
+In this exercise, we will create a many-to-many relationship between a Book table and an Author table. The Book table will have a id column that is the primary key, and the Author table will have a id column that is the primary key. We will also create a BookAuthor table that will store the relationship between books and authors. Once you have all the 3 tables populated, write a query that gets all of the books that were written by a particular author ege 'J.R.R. Tolkien' by using the join keyword.
 
+Day 21: Web Scraping Basics
+Introduction to web scraping in Python, using libraries such as BeautifulSoup and requests.
 
+Exercise
+Write a Python program that uses web scraping to extract the title and price of a product from an online shopping website. Print the extracted information.
 
-### Day 20: Working with SQL Relations and Python 
+Write a Python program that scrapes the headlines and summaries of the latest news articles from a news website. Print the extracted information.
 
+Write a Python program that scrapes the names, prices, and ratings of the top-rated products in a specific category on an e-commerce website. Print the extracted information.
 
+Day 22: Advanced Web Scraping Techniques
+Learn advanced techniques in web scraping, such as handling pagination, handling dynamic content using Selenium, and using proxies and user agents.
 
+Exercise
+Write a Python program that scrapes the names, prices, and ratings of all products in a specific category on an e-commerce website, handling pagination. Print the extracted information.
 
+Write a Python program that scrapes the names, prices, and ratings of all products in a specific category on an e-commerce website, handling dynamic content using Selenium. Print the extracted information.
 
+Write a Python program that scrapes the names, prices, and ratings of all products in a specific category on an e-commerce website, using proxies and rotating user agents to bypass IP blocking. Print the extracted information.
 
+Day 23: Data Structures in Python
+Learn about different data structures in Python, such as lists, tuples, dictionaries, sets, stacks, queues, and linked lists. Understand their properties, use cases, and operations.
 
+Exercise
+Implement a stack data structure in Python using a list. Include push, pop, and peek operations.
 
+Implement a queue data structure in Python using a list. Include enqueue, dequeue, and peek operations.
 
+Implement a linked list data structure in Python. Include methods to insert a node, delete a node, and print the linked list.
 
+Day 24: Python Algorithms: Searching
+In today's lesson, we'll dive into essential algorithms used for sorting and searching data in Python. Understanding these algorithms will empower you to efficiently organize and retrieve data from various data structures.
+
+Topics to be covered:
+
+*Introduction to algorithms: Understand the fundamental concepts of algorithms, including time complexity, space complexity, and algorithmic efficiency.
+*Linear search: Learn about the linear search algorithm and its applications. We'll cover its implementation and analyze its time complexity.
+*Binary search: Dive into the binary search algorithm, which is significantly faster than linear search for sorted data. We'll explore its implementation and analyze its time complexity.
+*Optimizing search algorithms: Learn about advanced search algorithms like interpolation search and exponential search, which optimize the searching process for specific scenarios.
+Exercise
+Implement a binary search algorithm in Python to search for a specific number in a sorted list.
+
+Implement a breadth-first search algorithm in Python to traverse a graph and print its nodes in breadth-first order.
+
+Day 25: Python Algorithms: Sorting
+*Sorting algorithms: Explore various sorting algorithms such as bubble sort, selection sort, insertion sort, merge sort, quicksort, and heapsort. Understand their implementation details, time complexities, and best-case and worst-case scenarios.
+*Advanced sorting techniques: Discover advanced sorting techniques such as radix sort, bucket sort, and counting sort. Understand their applications and analyze their time complexities.
+Exercise
+Implement a bubble sort algorithm in Python to sort a list of numbers in ascending order.
+Day 26: Advanced Python Algorithms
+In this lesson, we will explore advanced algorithms and data structures in Python. We will cover the following topics:
+
+*Sorting Algorithms: Dive deeper into sorting algorithms such as QuickSort, MergeSort, and HeapSort. Understand their principles, analyze their time and space complexity, and implement them in Python.
+
+*Graph Algorithms: Learn about graph theory and explore popular graph algorithms like Breadth-First Search (BFS), Depth-First Search (DFS), Dijkstra's algorithm, and Bellman-Ford algorithm. Implement these algorithms to solve graph-related problems.
+
+*Dynamic Programming: Understand the concept of dynamic programming and its applications in solving complex problems. Learn how to break down a problem into smaller subproblems and use memoization or bottom-up approaches to optimize computations.
+
+*Tree Algorithms: Explore algorithms related to trees, such as Tree Traversal (pre-order, in-order, post-order), Binary Search Trees (BST), and AVL Trees. Implement these algorithms to perform operations on trees efficiently.
+
+Exercise:
+Choose one of the advanced algorithms discussed in this lesson and implement it in Python. Test the algorithm with different inputs and analyze its performance. Compare its time and space complexity with other algorithms for the same problem.
+
+Day 27: Advanced Concepts in Python Libraries
+In this lesson, we will explore advanced concepts and features in popular Python libraries. We will cover the following topics:
+
+*NumPy: Dive deeper into the NumPy library and learn advanced techniques for array manipulation, broadcasting, and vectorization. Understand how to optimize code using NumPy's functions and features.
+
+*Pandas: Explore advanced data manipulation techniques in Pandas, such as handling missing data, merging and joining datasets, and pivoting data. Learn how to apply advanced operations to analyze and transform data efficiently.
+
+*Matplotlib: Discover advanced plotting techniques in Matplotlib, including subplots, customizing plot styles, and creating interactive visualizations. Understand how to create complex plots and combine multiple visual elements.
+
+*Scikit-learn: Learn advanced machine learning concepts and techniques using Scikit-learn. Explore feature selection, model evaluation, hyperparameter tuning, and ensemble methods to improve the performance of your machine learning models.
+
+Exercise:
+Choose a dataset of your choice and apply advanced data manipulation, analysis, and visualization techniques using libraries such as Pandas, NumPy, and Matplotlib. Perform exploratory data analysis, apply advanced statistical operations, and create insightful visualizations to gain deeper insights from the data.
+Day 28: Advanced Concepts in Python - Concurrency and Parallelism
+Explore concurrency and parallelism in Python. Understand how to write concurrent and parallel programs to improve performance and handle multiple tasks simultaneously.
+
+Topics:
+
+Threads Thread synchronization Locks and semaphores Race conditions Global Interpreter Lock (GIL) Processes and multiprocessing Parallel processing Asynchronous programming Exercise:
+
+Write a Python program to download multiple files using multi-threading.
+
+Day 29: Python for Machine Learning
+Learn about the different types of machine learning algorithms and we can use python programming language to implement it.
+
+Exercise
+1a. Implement a simple machine learning algorithm, such as a linear regression model or a decision tree. b.Evaluate the performance of a machine learning model.
+
+Day 30: Python for Web Development - Flask and Django
+Learning Objectives for Python Web Development using Flask and Django:
+
+Understand the basics of web development and the role of Python in creating web applications.
+Learn the fundamentals of Flask and Django frameworks.
+Build and deploy a simple web application using Flask and Django.
+Gain familiarity with routing, templates, forms, and database integration in Flask and Django.
+Explore advanced features such as user authentication, RESTful APIs, and testing in Flask and Django.
+Understand the differences between Flask and Django and choose the appropriate framework for different projects.
+Important Learning Resources for Beginners:
+Flask:
+*Official Flask Documentation: The official documentation provides a comprehensive guide to Flask, including installation instructions, tutorials, and examples. (https://flask.palletsprojects.com/)
+
+Flask Mega-Tutorial by Miguel Grinberg: This online tutorial covers Flask from the basics to more advanced topics, guiding you through the development of a blog application. (https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+Django:
+*Official Django Documentation: The official documentation offers extensive information on Django, including installation instructions, tutorials, and a detailed explanation of its various components. (https://docs.djangoproject.com/) *Django for Beginners by William S. Vincent: This book is a beginner-friendly guide to Django, covering everything from setting up a project to building a complete web application. (https://djangoforbeginners.com/)
+
+Online Courses:
+*Udemy: "Python Flask for Beginners" by Jose Salvatierra. This course provides a hands-on approach to learning Flask, covering all the essential concepts and building practical projects. (https://www.udemy.com/course/python-flask-for-beginners/) *Coursera: "Web Applications for Everybody" by Charles Severance. This specialization offers an introduction to web development using Python and Django, with a focus on database integration and deployment. (https://www.coursera.org/specializations/web-applications)
+
+YouTube Tutorials:
+*Corey Schafer's Flask Tutorial: This comprehensive video series covers Flask from start to finish, explaining the concepts and demonstrating their implementation through practical examples. (https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH) *CodeWithHarry Django Playlist: Harry's Django tutorial series is beginner-friendly and covers various aspects of Django development, including forms, authentication, and deployment. (https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL)
