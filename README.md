@@ -282,14 +282,16 @@ Everything about SQL - SQLite Installation,How to create SQL Tables, and Queries
 
 https://datatofish.com/create-database-python-using-sqlite3/ https://www.freecodecamp.org/news/sqlite-python-beginners-tutorial/ https://www.sqlitetutorial.net/sqlite-python/creating-database/
 
-Exercises
+#### Exercises
 In your VSCode or editor of your choice, create an SQLite database with 2 tables, students and teachers with accompanied attributes and perform the following operations:
-Insert data into the tables using SQL
-SELECT data by a particular id eg 'where id=2'
-SELECT ALL (*) the table data
-Update a row data
-Delete a particular table row data
-Drop a Table
+1. Insert data into the tables using SQL
+2. SELECT data by a particular id eg 'where id=2'
+3. SELECT ALL (*) the table data
+4. Update a row data
+5. Delete a particular table row data
+6. Drop a Table
+
+
 Day 17: ORM and Python
 Applying the concept of OOP with Python Data
 
