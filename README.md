@@ -267,17 +267,17 @@ Write a Python program that takes two numbers as input from the user.
 Implement exception handling to handle the scenario where the second number is zero (ZeroDivisionError).
 Display an appropriate error message if the second number is zero, and ask the user to enter a non-zero number.
 
-Exercise 2: Handling a FileNotFoundError
+#### Exercise 2: Handling a FileNotFoundError
 Write a Python program that asks the user to enter a file name.
 Implement exception handling to handle the scenario where the specified file does not exist (FileNotFoundError).
 Display an appropriate error message if the file is not found and ask the user to enter a valid file name.
 
-Exercise 3: Handling a ValueError
+#### Exercise 3: Handling a ValueError
 Write a Python program that asks the user to enter an integer.
 Implement exception handling to handle the scenario where the input cannot be converted to an integer (ValueError).
 Display an appropriate error message if the input is not a valid integer and ask the user to enter a valid integer.
 
-Day 16: Working with SQL Databases and Python
+### Day 16: Working with SQL Databases and Python
 Everything about SQL - SQLite Installation,How to create SQL Tables, and Queries * Use SQL to store data and retrieve it later on. * Use SQLite to build relational databases on your computer. * Perform CRUD operations on relational databases using SQL.
 
 https://datatofish.com/create-database-python-using-sqlite3/ https://www.freecodecamp.org/news/sqlite-python-beginners-tutorial/ https://www.sqlitetutorial.net/sqlite-python/creating-database/
