@@ -292,19 +292,19 @@ In your VSCode or editor of your choice, create an SQLite database with 2 tables
 6. Drop a Table
 
 
-Day 17: ORM and Python
+### Day 17: ORM and Python
 Applying the concept of OOP with Python Data
 
 Create Python objects using SQL database records.
 Create SQL database records using Python objects.
-Exercise
-Exercise 1: Create Python objects using SQL database records
+#### Exercise
+#### Exercise 1: Create Python objects using SQL database records
 
-Create a new Python file and import the sqlite3 library. Create a connection to the database. Create a cursor object. Execute a query to get all the records from the users table. Create a new Python object for each record in the users table. Print the name and email address of each user.
+1. Create a new Python file and import the sqlite3 library. Create a connection to the database. Create a cursor object. Execute a query to get all the records from the users table. Create a new Python object for each record in the users table. Print the name and email address of each user.
 
-Exercise 2: Create SQL database records using Python objects
+#### Exercise 2: Create SQL database records using Python objects
 
-Create a new Python file and import the sqlite3 library. Create a connection to the database. Create a cursor object. Create a new Python object for a user. Use the execute() method to insert the user object into the users table. Commit the changes to the database.
+1. Create a new Python file and import the sqlite3 library. Create a connection to the database. Create a cursor object. Create a new Python object for a user. Use the execute() method to insert the user object into the users table. Commit the changes to the database.
 
 Day 19: SQLALchemy and Python
 Using ORM and SQL concepts, implement the CRUD operations using SQLAlchemy library https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/ https://youtu.be/AKQ3XEDI9Mw https://www.youtube.com/watch?v=dIV8NHzboxU&amp;index=2
