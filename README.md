@@ -329,24 +329,24 @@ In this exercise, we will create a many-to-many relationship between a Book tabl
 ### Day 21: Web Scraping Basics
 Introduction to web scraping in Python, using libraries such as BeautifulSoup and requests.
 
-Exercise
-Write a Python program that uses web scraping to extract the title and price of a product from an online shopping website. Print the extracted information.
+#### Exercise
+1. Write a Python program that uses web scraping to extract the title and price of a product from an online shopping website. Print the extracted information.
 
-Write a Python program that scrapes the headlines and summaries of the latest news articles from a news website. Print the extracted information.
+2. Write a Python program that scrapes the headlines and summaries of the latest news articles from a news website. Print the extracted information.
 
-Write a Python program that scrapes the names, prices, and ratings of the top-rated products in a specific category on an e-commerce website. Print the extracted information.
+3. Write a Python program that scrapes the names, prices, and ratings of the top-rated products in a specific category on an e-commerce website. Print the extracted information.
 
-Day 22: Advanced Web Scraping Techniques
+### Day 22: Advanced Web Scraping Techniques
 Learn advanced techniques in web scraping, such as handling pagination, handling dynamic content using Selenium, and using proxies and user agents.
 
-Exercise
+1. Exercise
 Write a Python program that scrapes the names, prices, and ratings of all products in a specific category on an e-commerce website, handling pagination. Print the extracted information.
 
-Write a Python program that scrapes the names, prices, and ratings of all products in a specific category on an e-commerce website, handling dynamic content using Selenium. Print the extracted information.
+2. Write a Python program that scrapes the names, prices, and ratings of all products in a specific category on an e-commerce website, handling dynamic content using Selenium. Print the extracted information.
 
-Write a Python program that scrapes the names, prices, and ratings of all products in a specific category on an e-commerce website, using proxies and rotating user agents to bypass IP blocking. Print the extracted information.
+3. Write a Python program that scrapes the names, prices, and ratings of all products in a specific category on an e-commerce website, using proxies and rotating user agents to bypass IP blocking. Print the extracted information.
 
-Day 23: Data Structures in Python
+### Day 23: Data Structures in Python
 Learn about different data structures in Python, such as lists, tuples, dictionaries, sets, stacks, queues, and linked lists. Understand their properties, use cases, and operations.
 
 Exercise
