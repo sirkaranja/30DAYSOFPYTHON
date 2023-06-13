@@ -349,33 +349,33 @@ Write a Python program that scrapes the names, prices, and ratings of all produc
 ### Day 23: Data Structures in Python
 Learn about different data structures in Python, such as lists, tuples, dictionaries, sets, stacks, queues, and linked lists. Understand their properties, use cases, and operations.
 
-Exercise
+1. Exercise
 Implement a stack data structure in Python using a list. Include push, pop, and peek operations.
 
-Implement a queue data structure in Python using a list. Include enqueue, dequeue, and peek operations.
+2. Implement a queue data structure in Python using a list. Include enqueue, dequeue, and peek operations.
 
-Implement a linked list data structure in Python. Include methods to insert a node, delete a node, and print the linked list.
+3. Implement a linked list data structure in Python. Include methods to insert a node, delete a node, and print the linked list.
 
-Day 24: Python Algorithms: Searching
+### Day 24: Python Algorithms: Searching
 In today's lesson, we'll dive into essential algorithms used for sorting and searching data in Python. Understanding these algorithms will empower you to efficiently organize and retrieve data from various data structures.
 
-Topics to be covered:
+#### Topics to be covered:
 
 *Introduction to algorithms: Understand the fundamental concepts of algorithms, including time complexity, space complexity, and algorithmic efficiency.
 *Linear search: Learn about the linear search algorithm and its applications. We'll cover its implementation and analyze its time complexity.
 *Binary search: Dive into the binary search algorithm, which is significantly faster than linear search for sorted data. We'll explore its implementation and analyze its time complexity.
 *Optimizing search algorithms: Learn about advanced search algorithms like interpolation search and exponential search, which optimize the searching process for specific scenarios.
-Exercise
-Implement a binary search algorithm in Python to search for a specific number in a sorted list.
+#### Exercise
+1. Implement a binary search algorithm in Python to search for a specific number in a sorted list.
 
-Implement a breadth-first search algorithm in Python to traverse a graph and print its nodes in breadth-first order.
+2. Implement a breadth-first search algorithm in Python to traverse a graph and print its nodes in breadth-first order.
 
-Day 25: Python Algorithms: Sorting
+### Day 25: Python Algorithms: Sorting
 *Sorting algorithms: Explore various sorting algorithms such as bubble sort, selection sort, insertion sort, merge sort, quicksort, and heapsort. Understand their implementation details, time complexities, and best-case and worst-case scenarios.
 *Advanced sorting techniques: Discover advanced sorting techniques such as radix sort, bucket sort, and counting sort. Understand their applications and analyze their time complexities.
-Exercise
+#### Exercise
 Implement a bubble sort algorithm in Python to sort a list of numbers in ascending order.
-Day 26: Advanced Python Algorithms
+### Day 26: Advanced Python Algorithms
 In this lesson, we will explore advanced algorithms and data structures in Python. We will cover the following topics:
 
 *Sorting Algorithms: Dive deeper into sorting algorithms such as QuickSort, MergeSort, and HeapSort. Understand their principles, analyze their time and space complexity, and implement them in Python.
@@ -386,10 +386,10 @@ In this lesson, we will explore advanced algorithms and data structures in Pytho
 
 *Tree Algorithms: Explore algorithms related to trees, such as Tree Traversal (pre-order, in-order, post-order), Binary Search Trees (BST), and AVL Trees. Implement these algorithms to perform operations on trees efficiently.
 
-Exercise:
+#### Exercise:
 Choose one of the advanced algorithms discussed in this lesson and implement it in Python. Test the algorithm with different inputs and analyze its performance. Compare its time and space complexity with other algorithms for the same problem.
 
-Day 27: Advanced Concepts in Python Libraries
+### Day 27: Advanced Concepts in Python Libraries
 In this lesson, we will explore advanced concepts and features in popular Python libraries. We will cover the following topics:
 
 *NumPy: Dive deeper into the NumPy library and learn advanced techniques for array manipulation, broadcasting, and vectorization. Understand how to optimize code using NumPy's functions and features.
@@ -400,9 +400,9 @@ In this lesson, we will explore advanced concepts and features in popular Python
 
 *Scikit-learn: Learn advanced machine learning concepts and techniques using Scikit-learn. Explore feature selection, model evaluation, hyperparameter tuning, and ensemble methods to improve the performance of your machine learning models.
 
-Exercise:
+#### Exercise:
 Choose a dataset of your choice and apply advanced data manipulation, analysis, and visualization techniques using libraries such as Pandas, NumPy, and Matplotlib. Perform exploratory data analysis, apply advanced statistical operations, and create insightful visualizations to gain deeper insights from the data.
-Day 28: Advanced Concepts in Python - Concurrency and Parallelism
+### Day 28: Advanced Concepts in Python - Concurrency and Parallelism
 Explore concurrency and parallelism in Python. Understand how to write concurrent and parallel programs to improve performance and handle multiple tasks simultaneously.
 
 Topics:
@@ -411,13 +411,13 @@ Threads Thread synchronization Locks and semaphores Race conditions Global Inter
 
 Write a Python program to download multiple files using multi-threading.
 
-Day 29: Python for Machine Learning
+### Day 29: Python for Machine Learning
 Learn about the different types of machine learning algorithms and we can use python programming language to implement it.
 
 Exercise
 1a. Implement a simple machine learning algorithm, such as a linear regression model or a decision tree. b.Evaluate the performance of a machine learning model.
 
-Day 30: Python for Web Development - Flask and Django
+### Day 30: Python for Web Development - Flask and Django
 Learning Objectives for Python Web Development using Flask and Django:
 
 Understand the basics of web development and the role of Python in creating web applications.
